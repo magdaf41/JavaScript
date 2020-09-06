@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warsztat 3 - Walidacja formularza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="newsletter-form" action="">
+
+        <ul class="errors"></ul>
+        <label for="name">Imię  i nazwisko : </label><br>
+        <input type="text" name="name" placeholder="Jan Nowak"><br>
+        <label for="email">Adres email:  </label><br>
+        <input type="email" name="email" id="email" placeholder="jan@nowak.pl"><br>
+
+
+        <input type="checkbox" name="accept_1" id="accept">
+        <label for="accept_1">Wyrażam zgodę pierwszą</label><br>
+        <input type="checkbox" name="accept_2" id="accept">
+        <label for="accept_2">Wyrażam zgodę drugą</label><br>
+        <input type="checkbox" name="allAccept" id="allAccept">
+        <label for="allAccept">Wyrażam wszystkie zgody</label><br>
+
+         <button type="submit" id="send">Wyślij</button>
+    </form>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
