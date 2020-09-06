@@ -1,0 +1,14 @@
+
+
+const send = (event) => {
+    event.preventDefault();
+    console.log("Default action stopped");
+}
+
+let submit = document.getElementById('submit');
+    console.log(submit);
+
+submit.addEventListener('click', send);
+
+let form = getElementById('form');
+console.log(form);
